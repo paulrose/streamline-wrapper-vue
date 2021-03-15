@@ -1,9 +1,8 @@
 <script>
-import Vue from 'vue';
 import { StreamlineIcon } from '@/entry';
 import HouseIcon from './icon'
 
-export default Vue.extend({
+export default {
   name: 'ServeDev',
   components: {
     StreamlineIcon,
@@ -13,7 +12,7 @@ export default Vue.extend({
       icon: HouseIcon
     }
   },
-});
+};
 </script>
 
 <template>
